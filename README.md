@@ -15,7 +15,9 @@ Github steps:
 
 
 ** Installation of a Web Server **
+
 Apache:
+
 https://ubuntu.com/tutorials/install-and-configure-apache#2-installing-apache
 
 
@@ -25,7 +27,9 @@ sudo apt install apache2
 sudo systemctl status apache2 
 
 NGINX:
+
 https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx
+
 sudo apt update
 sudo apt install nginx
 cd /var/www
