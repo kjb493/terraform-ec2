@@ -2,7 +2,7 @@
 This is my terraform code to create an ec2 server
 
 
-Github steps:
+## Github steps:
 
 1. Create a new branch
 2. make your changes
@@ -14,25 +14,24 @@ Github steps:
 
 
 
-** Installation of a Web Server **
+## Installation of a Web Server
 
-Apache:
+# Apache:
 
 https://ubuntu.com/tutorials/install-and-configure-apache#2-installing-apache
 
 
-sudo apt update
-sudo apt install apache2
-** check if it is installed and running **
-sudo systemctl status apache2 
+1. sudo apt update
+2. sudo apt install apache2
+3. sudo systemctl status apache2 ** check if it is installed and running **
 
-NGINX:
+# NGINX:
 
 https://ubuntu.com/tutorials/install-and-configure-nginx#2-installing-nginx
 
-sudo apt update
-sudo apt install nginx
-cd /var/www
-sudo mkdir tutorial
-cd tutorial
-sudo "${EDITOR:-vi}" index.html
+1. sudo apt update
+2. sudo apt install nginx
+3. cd /var/www
+4. sudo mkdir tutorial
+5. cd tutorial
+6. sudo "${EDITOR:-vi}" index.html
