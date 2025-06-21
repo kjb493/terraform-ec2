@@ -8,6 +8,6 @@ resource "aws_instance" "web" {
   user_data                   = base64encode(file("user-data.sh"))
   user_data_replace_on_change = true
   tags = {
-    Name : "automation server - OKHAI 1"
+    Name : "Okhai web server"
   }
 }
