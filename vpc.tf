@@ -3,7 +3,7 @@
 resource "aws_vpc" "example" {
   cidr_block = "172.16.0.0/24"
   tags = {
-      Name = "Okhai New VPC"
+    Name = "Okhai New VPC"
   }
 }
 
