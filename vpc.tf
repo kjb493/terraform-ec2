@@ -2,11 +2,11 @@
 
 resource "aws_vpc" "example" {
   cidr_block = "172.16.0.0/24"
-
   tags = {
-    Name = "automation-vpc"
+      Name = "Okhai New VPC"
   }
 }
+
 
 resource "aws_subnet" "private_a" {
   vpc_id            = aws_vpc.example.id
@@ -82,5 +82,3 @@ resource "aws_route_table_association" "public_assoc_2" {
   subnet_id      = aws_subnet.public_b.id
   route_table_id = aws_route_table.public_rt.id
 }
-
-
